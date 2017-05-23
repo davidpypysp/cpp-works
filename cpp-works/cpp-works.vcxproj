@@ -36,6 +36,8 @@
     <ClInclude Include="src\cc150\c2_5.h" />
     <ClInclude Include="src\cc150\c3_2.h" />
     <ClInclude Include="src\cc150\c3_3.h" />
+    <ClInclude Include="src\cc150\c3_5.h" />
+    <ClInclude Include="src\cc150\c3_6.h" />
     <ClInclude Include="src\util\list_node.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
