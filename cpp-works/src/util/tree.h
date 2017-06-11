@@ -4,7 +4,7 @@
 class TreeNode {
 public:
 	int val;
-	TreeNode *left, *right;
+	TreeNode *left, *right, *parent;
 	TreeNode(int val = 0) {
 		this->val = val;
 		left = nullptr;
