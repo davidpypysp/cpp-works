@@ -95,5 +95,11 @@
     <ClInclude Include="src\cc150\c4_6.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\cc150\c4_7.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cc150\c4_8.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
