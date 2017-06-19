@@ -2,6 +2,7 @@
 #include "CppUnitTest.h"
 
 #include "../cpp-works/src/backup/test1.h"
+#include "cc150/c5_3.h"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace unit_test
@@ -12,15 +13,16 @@ namespace unit_test
 		
 		TEST_METHOD(TestMethod1)
 		{
-			// TODO: Your test code here
-			Assert::AreNotEqual(93, 3);
+			C5_3 c;
+			int a = 16;
+			string s = c.BinaryString(a);
+			int fns = c.FindNextLargest(a);
+			string t = c.BinaryString(fns);
 		}
 
 
 		TEST_METHOD(TestMethod2) {
-			int a = 1;
-			int b = 1;
-			Assert::AreEqual(a, b);
+
 		}
 	};
 }
