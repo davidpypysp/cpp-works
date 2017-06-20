@@ -51,6 +51,8 @@
     <ClInclude Include="src\cc150\c5_1.h" />
     <ClInclude Include="src\cc150\c5_2.h" />
     <ClInclude Include="src\cc150\c5_3.h" />
+    <ClInclude Include="src\cc150\c5_5.h" />
+    <ClInclude Include="src\cc150\C5_6.h" />
     <ClInclude Include="src\util\adjacent_list.h" />
     <ClInclude Include="src\util\list_node.h" />
     <ClInclude Include="src\util\tree.h" />
