@@ -125,5 +125,14 @@
     <ClInclude Include="src\cc150\c5_7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\cc150\c8_1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cc150\c8_3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cc150\c8_4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
