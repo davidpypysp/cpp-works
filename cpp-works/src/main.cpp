@@ -11,5 +11,6 @@ int main() {
 	string s = "0.33";
 	C5_2 c5_2;
 	string result = c5_2.DecToBin(s);
-	system("pause");
+	cout << "result = " + result << endl;
+	return 0;
 }
