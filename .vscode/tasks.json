@@ -4,6 +4,6 @@
     "version": "0.1.0",
     "command": "echo",
     "isShellCommand": true,
-    "args": ["Hello World"],
+    "args": ["Hello World!"],
     "showOutput": "always"
 }
