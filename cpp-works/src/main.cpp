@@ -5,16 +5,15 @@
 #include "util/adjacent_list.h"
 
 #include "amazon/l15.h"
+#include "amazon/l438.h"
 
 using namespace std;
 
 
 
 int main() {
-	L15 l;
-	vector<int> sums;
-	sums.push_back(0);
-	l.threeSum(sums);
+	L438 l;
+	l.findAnagrams("cbaebabacd", "abc");
 
 
 }
