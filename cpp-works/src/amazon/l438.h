@@ -20,6 +20,7 @@ public:
         while(right < s.size()) {
             int c = s[right] - 'a';
             if(!p_cnts[c]) {
+                memset(match_cnts, 0, sizeof(match_cnts));
                 right++;
                 left = right;
             }

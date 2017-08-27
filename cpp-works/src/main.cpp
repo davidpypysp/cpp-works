@@ -6,14 +6,15 @@
 
 #include "amazon/l15.h"
 #include "amazon/l438.h"
+#include "amazon/l532.h"
 
 using namespace std;
 
 
 
 int main() {
-	L438 l;
-	l.findAnagrams("cbaebabacd", "abc");
-
+	L532 l;
+	vector<int> v = {1, 1, 1, 1, 1};
+	l.findPairs(v, 0);
 
 }
