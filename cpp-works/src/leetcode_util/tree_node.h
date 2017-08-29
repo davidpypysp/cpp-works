@@ -1,4 +1,5 @@
-
+#ifndef TREE_NODE_H_
+#define TREE_NODE_H_
 
 struct TreeNode {
     int val;
@@ -8,3 +9,5 @@ struct TreeNode {
 
     }
 };
+
+#endif

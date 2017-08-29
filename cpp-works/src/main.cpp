@@ -10,17 +10,16 @@
 #include "leetcode/l228.h"
 #include "amazon/l200.h"
 #include "leetcode/l305.h"
+#include "amazon/l297.h"
+#include "amazon/l449.h"
 
 using namespace std;
 
 
 
 int main() {
-	L305 l;
-	pair<int, int> p(1, 0);
-	vector<pair<int, int>> v;
-	v.push_back(p);
-	l.numIslands2(3, 1, v);
-
+	L449 l;
+	string s = "2,1,3";
+	l.deserialize(s);
 
 }

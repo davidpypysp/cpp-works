@@ -9,9 +9,8 @@ public:
         memset(cnts, 0, sizeof(cnts));
         int left = 0, right = 0;
         while(right < s.size()) {
-            cnts[s[right] - 'a']++;
-            while(left <= right && cnts[s[left] - 'a'] > 1) left++;
-            right++;
+            cnts[s[right++] - 'a']++;
+            while(left < right && cnts[s[left] - 'a'] > 1) left++;
         }
         return left == s.size() ? -1 : left;
     }
