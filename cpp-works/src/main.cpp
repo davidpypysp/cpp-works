@@ -12,14 +12,15 @@
 #include "leetcode/l305.h"
 #include "amazon/l297.h"
 #include "amazon/l449.h"
+#include "amazon/l536.h"
 
 using namespace std;
 
 
 
 int main() {
-	L449 l;
-	string s = "2,1,3";
-	l.deserialize(s);
+	L536 l;
+	string s = "4(2(3)(1))(6(5))";
+	l.str2tree(s);
 
 }
