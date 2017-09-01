@@ -14,15 +14,13 @@
 #include "amazon/l449.h"
 #include "amazon/l536.h"
 #include "leetcode/l287.h"
+#include "amazon/l640.h"
 using namespace std;
 
 
 
 int main() {
-	L287 l;
-	vector<int> v;
-	v.push_back(1);
-	v.push_back(1);
-	l.findDuplicate(v);
-
+	L640 l;
+	string s = "x+5-3+x=6+x-2";
+	l.solveEquation(s);
 }
