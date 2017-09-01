@@ -13,14 +13,16 @@
 #include "amazon/l297.h"
 #include "amazon/l449.h"
 #include "amazon/l536.h"
-
+#include "leetcode/l287.h"
 using namespace std;
 
 
 
 int main() {
-	L536 l;
-	string s = "4(2(3)(1))(6(5))";
-	l.str2tree(s);
+	L287 l;
+	vector<int> v;
+	v.push_back(1);
+	v.push_back(1);
+	l.findDuplicate(v);
 
 }

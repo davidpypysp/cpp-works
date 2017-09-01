@@ -3,7 +3,7 @@
 #include "../leetcode_util/tree_node.h"
 using namespace std;
 
-class Solution {
+class L606 {
 public:
     string tree2str(TreeNode* t) {
         return dfs(t);
