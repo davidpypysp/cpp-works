@@ -24,3 +24,5 @@ int main() {
 }
 
 ```
+
+[![Everything Is AWESOME](https://img.youtube.com/vi/_0l15gcmXrc/0.jpg)](https://www.youtube.com/watch?v=_0l15gcmXrc "Everything Is AWESOME")
