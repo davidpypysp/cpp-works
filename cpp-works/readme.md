@@ -16,8 +16,11 @@
 ![pic](https://raw.githubusercontent.com/davidpypysp/cpp-works/master/view.jpg)
 
 
+```
+#include <iostream>
 
+int main() {
+    return 0;
+}
 
-
-
-
+```
