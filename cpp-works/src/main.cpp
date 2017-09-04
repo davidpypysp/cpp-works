@@ -15,12 +15,24 @@
 #include "amazon/l536.h"
 #include "leetcode/l287.h"
 #include "amazon/l640.h"
+#include "leetcode/l381.h"
 using namespace std;
 
 
 
 int main() {
-	L640 l;
-	string s = "x+5-3+x=6+x-2";
-	l.solveEquation(s);
+	RandomizedCollection rc;
+	rc.insert(10);
+	rc.insert(10);
+	rc.insert(20);
+	rc.insert(20);
+	rc.insert(30);
+	rc.insert(30);
+	rc.remove(10);
+	rc.remove(10);
+	rc.remove(30);
+	rc.remove(30);
+	int val;
+	val = rc.getRandom();
+
 }
