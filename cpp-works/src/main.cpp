@@ -16,23 +16,15 @@
 #include "leetcode/l287.h"
 #include "amazon/l640.h"
 #include "leetcode/l381.h"
+#include "amazon/l529.h"
+#include "leetcode/l621.h"
 using namespace std;
 
 
 
 int main() {
-	RandomizedCollection rc;
-	rc.insert(10);
-	rc.insert(10);
-	rc.insert(20);
-	rc.insert(20);
-	rc.insert(30);
-	rc.insert(30);
-	rc.remove(10);
-	rc.remove(10);
-	rc.remove(30);
-	rc.remove(30);
-	int val;
-	val = rc.getRandom();
-
+	vector<char> v = {'A', 'A', 'A', 'B', 'B', 'B'};
+	L621 l;
+	l.leastInterval(v, 0);
+	return 0;
 }

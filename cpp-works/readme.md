@@ -25,4 +25,12 @@ int main() {
 
 ```
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/_0l15gcmXrc/0.jpg)](https://www.youtube.com/watch?v=_0l15gcmXrc "Everything Is AWESOME")
+[Everything Is AWESOME](https://www.youtube.com/watch?v=_0l15gcmXrc "Everything Is AWESOME")
+
+<object width="425" height="350">
+  <param name="movie" value="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg" />
+  <param name="wmode" value="transparent" />
+  <embed src="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
