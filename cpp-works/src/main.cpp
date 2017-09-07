@@ -18,13 +18,14 @@
 #include "leetcode/l381.h"
 #include "amazon/l529.h"
 #include "leetcode/l621.h"
+#include "leetcode/l269.h"
 using namespace std;
 
 
 
 int main() {
-	vector<char> v = {'A', 'A', 'A', 'B', 'B', 'B'};
-	L621 l;
-	l.leastInterval(v, 0);
+	L269 l;
+	vector<string> words = {"wrt","wrf","er","ett","rftt"};
+	l.alienOrder(words);
 	return 0;
 }
