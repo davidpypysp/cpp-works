@@ -19,13 +19,13 @@
 #include "amazon/l529.h"
 #include "leetcode/l621.h"
 #include "leetcode/l269.h"
+#include "leetcode/l340.h"
 using namespace std;
 
 
 
 int main() {
-	L269 l;
-	vector<string> words = {"wrt","wrf","er","ett","rftt"};
-	l.alienOrder(words);
+	L340 l;
+	l.lengthOfLongestSubstringKDistinct("eceba", 2);
 	return 0;
 }
