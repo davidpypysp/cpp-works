@@ -2,30 +2,23 @@
 #include <string>
 #include <stdlib.h>
 #include <algorithm>
+#include <queue>
 #include "util/adjacent_list.h"
 
-#include "amazon/l15.h"
-#include "amazon/l438.h"
-#include "amazon/l532.h"
-#include "leetcode/l228.h"
-#include "amazon/l200.h"
-#include "leetcode/l305.h"
-#include "amazon/l297.h"
-#include "amazon/l449.h"
-#include "amazon/l536.h"
-#include "leetcode/l287.h"
-#include "amazon/l640.h"
-#include "leetcode/l381.h"
-#include "amazon/l529.h"
-#include "leetcode/l621.h"
-#include "leetcode/l269.h"
-#include "leetcode/l340.h"
+
+#include "leetcode/l140.h"
+#include "leetcode/l22.h"
 using namespace std;
 
-
+struct cmp {
+    bool operator () (int a, int b) {
+        return a < b;
+    }
+};
 
 int main() {
-	L340 l;
-	l.lengthOfLongestSubstringKDistinct("eceba", 2);
+	L22 l;
+	l.generateParenthesis(3);
+
 	return 0;
 }
