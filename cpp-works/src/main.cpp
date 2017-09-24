@@ -8,17 +8,15 @@
 
 #include "leetcode/l140.h"
 #include "leetcode/l22.h"
+#include "leetcode/l621.h"
+#include "leetcode/l128.h"
+#include "leetcode/l28.h"
 using namespace std;
 
-struct cmp {
-    bool operator () (int a, int b) {
-        return a < b;
-    }
-};
+
 
 int main() {
-	L22 l;
-	l.generateParenthesis(3);
-
+	L28 l;
+	l.strStr("mississippi", "issi");
 	return 0;
 }

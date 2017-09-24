@@ -11,47 +11,40 @@ struct cmp {
 
 
 class L621 {
+
 public:
     int leastInterval(vector<char>& tasks, int n) {
-        priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> pq;
-        int letters[26];
-        memset(letters, 0, sizeof(letters));
+        int cnts[26];
+        memset(cnts, 0, sizeof(cnts));
         for(char c : tasks) {
-            letters[c - 'A']++;
-        }
-        for(int i = 0; i < 26; i++) {
-            if(letters[i]) {
-                pq.push({i, letters[i]});
-            }
+            cnts[c - 'A']++;
         }
         
-        vector<pair<int, int>> v;
-        int result = 0;
-        int cnt = 0, empty_num = 0;
+        priority_queue<int, vector<int>, greater<int>> pq; 
+        for(int i = 0; i < 26; i++) {
+            if(cnts[i]) pq.push(cnts[i]);
+        }
+        
+        int time = 0, cool = 0;
+        vector<int> v;
         while(true) {
             if(!pq.empty()) {
-                pair<int, int> p = pq.top();
+                int num = pq.top();
                 pq.pop();
-                p.second--;
-                v.push_back(p);
+                if(num > 1) {
+                    v.push_back(num-1);
+                }                
             }
-            else {
-                empty_num++;
-            }
-            cnt++;
-            result++;
-            if(cnt > n) {
-                for(auto &p : v) {
-                    if(p.second) pq.push(p);
-                }
+            time++;
+            cool++;
+            if(cool == n+1) {
+                if(v.size() == 0) break;
+                cool = 0;
+                for(int num : v) pq.push(num);
                 v.clear();
-                if(pq.empty()) {
-                    return result - empty_num;
-                }
-                cnt = 0;
-                empty_num = 0;
             }
         }
-        return result;
+        return time;
     }
+    
 };
