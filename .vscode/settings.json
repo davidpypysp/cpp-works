@@ -37,6 +37,8 @@
         "iostream": "cpp",
         "atomic": "cpp",
         "system_error": "cpp",
-        "type_traits": "cpp"
+        "type_traits": "cpp",
+        "regex": "cpp",
+        "string_view": "cpp"
     }
 }
