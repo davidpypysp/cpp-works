@@ -14,11 +14,6 @@ using namespace std;
 
 
 int main() {
-	string s = "abc def afa";
-	istringstream iss(s);
-	string value;
-	while(iss >> value) {
-		cout << value << endl;
-	}
+	cout << "abcd" << endl;
 
 }
