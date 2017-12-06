@@ -8,12 +8,14 @@
 #include <regex>
 #include "util/adjacent_list.h"
 
-#include "akuna/normal.h"
+#include "forusall/movie.h"
 using namespace std;
 
 
 
 int main() {
-	cout << "abcd" << endl;
+	vector<int> nums = {6, 1, 4, 6, 3, 2, 7, 4};
 
+	int result = MaxMovie(nums, 3, 2);
+	cout << result << endl;
 }
