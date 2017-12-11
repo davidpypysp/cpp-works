@@ -6,16 +6,20 @@
 #include <queue>
 #include <vector>
 #include <regex>
+#include <typeinfo>
 #include "util/adjacent_list.h"
 
-#include "forusall/movie.h"
+#include "ixl/predators.h"
+#include "ixl/count_zero.h"
 using namespace std;
 
 
 
-int main() {
-	vector<int> nums = {6, 1, 4, 6, 3, 2, 7, 4};
 
-	int result = MaxMovie(nums, 3, 2);
-	cout << result << endl;
+int main() {
+	vector<int> nums = {2, 2, 3, -1, 2, 4};
+	int n = 630;
+	int result = CountZero(n);
+	//int result = MaximumGroup(nums);
+
 }

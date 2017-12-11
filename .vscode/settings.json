@@ -25,6 +25,11 @@
         "ios": "cpp",
         "iostream": "cpp",
         "__config": "cpp",
-        "__nullptr": "cpp"
+        "__nullptr": "cpp",
+        "algorithm": "cpp",
+        "cstdio": "cpp",
+        "cstring": "cpp",
+        "sstream": "cpp",
+        "typeinfo": "cpp"
     }
 }
